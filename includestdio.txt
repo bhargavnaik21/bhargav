@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+main()
+{
+float celsius,fahrenheit,c,f;
+clrscr();
+printf("Enter Fahrenheit:");
+scanf("%f",&fahrenheit);
+celsius=5*(f-32)/9;
+printf("Celsius=%.2f\n",celsius);
+printf("Enter Celsius:");
+scanf("%f",&c);
+f=(c*9/5)+32;
+printf("Fahrenheit=%.2f",f);
+getch();
+}
